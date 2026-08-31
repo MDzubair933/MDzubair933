@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="1280" height="420" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1.5" />
+
+  <!-- Section Title -->
+  <g transform="translate(50, 48)">
+    <text font-size="20" font-weight="700" fill="#18181B">Codebase &amp; Systems Architecture Distribution</text>
+    <text font-size="13" font-weight="400" fill="#71717A" y="24">Multi-Service Agentic &amp; Full-Stack Ecosystem</text>
+  </g>
+
+  <!-- Donut Chart (Left Side) -->
+  <g transform="translate(200, 245)">
+    
+        <path d="M 7.34788079488412e-15 -120 A 120 120 0 0 1 108.57924629592233 51.09351498780873 L 61.528239567689326 28.95299182642495 A 68 68 0 0 0 4.1637991171010006e-15 -68 Z" fill="#3178C6" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>TypeScript: 32.0%</title>
+        </path>
+        <path d="M 108.57924629592233 51.09351498780873 A 120 120 0 0 1 -57.810440892205854 105.15680160526361 L -32.75924983891665 59.58885424298272 A 68 68 0 0 0 61.528239567689326 28.95299182642495 Z" fill="#3776AB" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>Python: 26.0%</title>
+        </path>
+        <path d="M -57.810440892205854 105.15680160526361 A 120 120 0 0 1 -119.76320741139259 -7.534862343517655 L -67.86581753312247 -4.269755327993337 A 68 68 0 0 0 -32.75924983891665 59.58885424298272 Z" fill="#F7DF1E" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>JavaScript: 18.0%</title>
+        </path>
+        <path d="M -119.76320741139259 -7.534862343517655 A 120 120 0 0 1 -101.3193510602418 -64.29921539747961 L -57.414298934137015 -36.43622205857178 A 68 68 0 0 0 -67.86581753312247 -4.269755327993337 Z" fill="#F34B7D" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>C / C++: 8.0%</title>
+        </path>
+        <path d="M -101.3193510602418 -64.29921539747961 A 120 120 0 0 1 -70.53423027509679 -97.08203932499369 L -39.96939715588818 -55.013155617496416 A 68 68 0 0 0 -57.414298934137015 -36.43622205857178 Z" fill="#1572B6" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>CSS3 / Tailwind: 6.0%</title>
+        </path>
+        <path d="M -70.53423027509679 -97.08203932499369 A 120 120 0 0 1 -44.17494632216134 -111.57317830659018 L -25.03246958255809 -63.2248010404011 A 68 68 0 0 0 -39.96939715588818 -55.013155617496416 Z" fill="#E34F26" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>HTML5: 4.0%</title>
+        </path>
+        <path d="M -44.17494632216134 -111.57317830659018 A 120 120 0 0 1 -22.485757750286954 -117.87447008744265 L -12.741929391829276 -66.79553304955083 A 68 68 0 0 0 -25.03246958255809 -63.2248010404011 Z" fill="#89E051" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>Shell / Bash: 3.0%</title>
+        </path>
+        <path d="M -22.485757750286954 -117.87447008744265 A 120 120 0 0 1 -2.2043642384652355e-14 -120 L -1.2491397351303002e-14 -68 A 68 68 0 0 0 -12.741929391829276 -66.79553304955083 Z" fill="#CB171E" stroke="#FFFFFF" stroke-width="2.5px">
+          <title>YAML / DevOps: 3.0%</title>
+        </path>
+    <!-- Center Label -->
+    <text text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#18181B">8 STACK</text>
+    <text text-anchor="middle" dominant-baseline="middle" y="20" font-size="11" font-weight="500" fill="#71717A">LANGUAGES</text>
+  </g>
+
+  <!-- Languages Grid (Right Side, 2 Columns) -->
+  <g transform="translate(400, 110)">
+    
+    <g transform="translate(0, 0)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#3178C6" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">TypeScript</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">Agentic AI, LangGraph & Next.js</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="26.1" height="7" rx="3.5" fill="#3178C6" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#3178C6" text-anchor="start">32%</text>
+    </g>
+    <g transform="translate(420, 0)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#3776AB" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">Python</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">FastAPI, CrewAI, pgvector & ML</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="21.150000000000002" height="7" rx="3.5" fill="#3776AB" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#3776AB" text-anchor="start">26%</text>
+    </g>
+    <g transform="translate(0, 68)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#F7DF1E" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">JavaScript</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">LiveKit Audio, WebSockets & MCP</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="14.4" height="7" rx="3.5" fill="#F7DF1E" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#F7DF1E" text-anchor="start">18%</text>
+    </g>
+    <g transform="translate(420, 68)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#F34B7D" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">C / C++</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">SIMD Vector Distance Kernel</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="6.3" height="7" rx="3.5" fill="#F34B7D" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#F34B7D" text-anchor="start">8%</text>
+    </g>
+    <g transform="translate(0, 136)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#1572B6" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">CSS3 / Tailwind</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">Glassmorphic Design Tokens</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="6" height="7" rx="3.5" fill="#1572B6" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#1572B6" text-anchor="start">6%</text>
+    </g>
+    <g transform="translate(420, 136)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#E34F26" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">HTML5</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">Semantic App Markup</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="6" height="7" rx="3.5" fill="#E34F26" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#E34F26" text-anchor="start">4%</text>
+    </g>
+    <g transform="translate(0, 204)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#89E051" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">Shell / Bash</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">Cloud & K8s Automation</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="6" height="7" rx="3.5" fill="#89E051" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#89E051" text-anchor="start">3%</text>
+    </g>
+    <g transform="translate(420, 204)">
+      <rect width="400" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2" />
+      <circle cx="24" cy="29" r="6" fill="#CB171E" />
+      <text x="40" y="24" font-size="15" font-weight="700" fill="#18181B">YAML / DevOps</text>
+      <text x="40" y="44" font-size="12" font-weight="400" fill="#71717A">Docker & CI/CD Pipelines</text>
+      
+      <!-- Progress Bar & Percentage -->
+      <rect x="250" y="25" width="80" height="7" rx="3.5" fill="#E2E8F0" />
+      <rect x="250" y="25" width="6" height="7" rx="3.5" fill="#CB171E" />
+      <text x="342" y="32" font-size="14" font-weight="700" fill="#CB171E" text-anchor="start">3%</text>
+    </g>
+  </g>
+</svg>

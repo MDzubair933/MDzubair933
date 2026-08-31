@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="36" viewBox="0 0 96 36" fill="none">
+  <!-- Subtle Tinted Background & 1.2px Border -->
+  <rect width="96" height="36" rx="6" fill="rgb(19, 33, 34)" stroke="rgb(39, 84, 80)" stroke-width="1.2" />
+  <!-- Brand Icon (x=13, y=9) -->
+  <g transform="translate(13, 9)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#10A37F"><path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.98 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494z"/></svg>
+  </g>
+  <!-- Clean High-Contrast Typography -->
+  <text x="38" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#F4F4F5">OpenAI</text>
+</svg>

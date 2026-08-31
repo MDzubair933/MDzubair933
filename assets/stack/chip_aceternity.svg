@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="36" viewBox="0 0 150 36" fill="none">
+  <!-- Subtle Tinted Background & 1.2px Border -->
+  <rect width="150" height="36" rx="6" fill="rgb(31, 31, 44)" stroke="rgb(82, 77, 114)" stroke-width="1.2" />
+  <!-- Brand Icon (x=13, y=9) -->
+  <g transform="translate(13, 9)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/><line x1="12" y1="22" x2="12" y2="12"/><line x1="2" y1="8.5" x2="12" y2="12"/><line x1="22" y1="8.5" x2="12" y2="12"/></svg>
+  </g>
+  <!-- Clean High-Contrast Typography -->
+  <text x="38" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#F4F4F5">Aceternity UI</text>
+</svg>

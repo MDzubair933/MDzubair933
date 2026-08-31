@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="36" viewBox="0 0 132 36" fill="none">
+  <!-- Lightish Red Themed Container -->
+  <rect width="132" height="36" rx="6" fill="#38161A" stroke="#991B1B" stroke-width="1.2" />
+  <!-- Horizontally Centered Group (Left: 35px, Right: 35px) -->
+  <g transform="translate(35, 9)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+      <polyline points="22,6 12,13 2,6"></polyline>
+    </svg>
+  </g>
+  <text x="61" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#FEE2E2">Email</text>
+</svg>

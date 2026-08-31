@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70">
+  <defs>
+    <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0B429" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F0B429" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#F0B429" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top horizontal gradient line (y=1) -->
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="url(#footLine)" stroke-width="0.8" />
+
+  <!-- Flanking brackets at y=38 -->
+  <text x="340" y="38" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="14" fill="#1C1917">[ </text>
+  <text x="860" y="38" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="14" fill="#1C1917"> ]</text>
+
+  <!-- Centered monospace text at y=38 -->
+  <text x="600" y="38" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="10" letter-spacing="5" fill="#78716C">MD ZUBAIR  ·  WEB  ·  AI  ·  VOICE  ·  SEO</text>
+
+  <!-- Centered amber label at y=54 -->
+  <text x="600" y="54" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="9" letter-spacing="3" fill="#F0B429" opacity="0.5">zubairsystems.tech</text>
+</svg>

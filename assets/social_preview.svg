@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" fill="none">
+  <defs>
+    <!-- Background Grid -->
+    <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#27272A" fill-opacity="0.6" />
+    </pattern>
+
+    <!-- Warm Golden Ambient Glow -->
+    <radialGradient id="goldGlow" cx="50%" cy="38%" r="45%">
+      <stop offset="0%" stop-color="#FFE600" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Accent for Border -->
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3F3F46" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFE600" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#27272A" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-glow {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 82px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      fill: #FFE600;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      fill: #F4F4F5;
+    }
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      fill: #A1A1AA;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #E4E4E7;
+    }
+    .footer-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      fill: #71717A;
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1280" height="640" fill="#09090B" />
+  <rect width="1280" height="640" fill="url(#dotGrid)" />
+  <rect width="1280" height="640" fill="url(#goldGlow)" />
+
+  <!-- Outer Elegant Frame -->
+  <rect x="24" y="24" width="1232" height="592" rx="16" fill="none" stroke="url(#cardBorder)" stroke-width="1.5" />
+
+  <!-- Status Pill Header -->
+  <g transform="translate(640, 105)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="#18181B" stroke="#27272A" stroke-width="1" />
+    <circle cx="-110" cy="0" r="5" fill="#22C55E" />
+    <text x="-95" y="5.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7" letter-spacing="1">AVAILABLE FOR PROJECTS</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="640" y="225" text-anchor="middle" class="title-glow">MD ZUBAIR</text>
+
+  <!-- Role Subtitle -->
+  <text x="640" y="280" text-anchor="middle" class="subtitle">Web Engineer &amp; AI Automation Specialist</text>
+
+  <!-- Tagline -->
+  <text x="640" y="325" text-anchor="middle" class="tagline">High-performance web systems, AI calling agents &amp; autonomous business workflows.</text>
+
+  <!-- Capability Badges (Center Row) -->
+  <g transform="translate(640, 395)">
+    <!-- Badge 1: Next.js -->
+    <g transform="translate(-360, 0)">
+      <rect x="-65" y="-18" width="130" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">Next.js</text>
+    </g>
+    <!-- Badge 2: React -->
+    <g transform="translate(-215, 0)">
+      <rect x="-60" y="-18" width="120" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">React</text>
+    </g>
+    <!-- Badge 3: TypeScript -->
+    <g transform="translate(-75, 0)">
+      <rect x="-65" y="-18" width="130" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">TypeScript</text>
+    </g>
+    <!-- Badge 4: Python -->
+    <g transform="translate(75, 0)">
+      <rect x="-65" y="-18" width="130" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">Python</text>
+    </g>
+    <!-- Badge 5: AI Agents -->
+    <g transform="translate(225, 0)">
+      <rect x="-65" y="-18" width="130" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">AI Agents</text>
+    </g>
+    <!-- Badge 6: Automation -->
+    <g transform="translate(375, 0)">
+      <rect x="-65" y="-18" width="130" height="36" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1.2" />
+      <text x="0" y="5.5" text-anchor="middle" class="pill-text">Automation</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="200" y1="480" x2="1080" y2="480" stroke="#27272A" stroke-width="1" />
+
+  <!-- Footer Info (2 Columns) -->
+  <g transform="translate(640, 535)">
+    <!-- Left: Website -->
+    <text x="-160" y="0" text-anchor="middle" class="footer-text">🌐 zubairsystems.tech</text>
+    <!-- Middle Divider -->
+    <circle cx="0" cy="-5" r="3" fill="#3F3F46" />
+    <!-- Right: GitHub -->
+    <text x="160" y="0" text-anchor="middle" class="footer-text">🐙 github.com/MDzubair933</text>
+  </g>
+</svg>

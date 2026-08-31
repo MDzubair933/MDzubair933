@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" fill="none">
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      fill: #F1ECE4;
+    }
+    .desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      fill: #C4BCB1;
+    }
+  </style>
+
+  <!-- ==================== ROW 1: High-Performance Websites ==================== -->
+  <g transform="translate(10, 0)">
+    <!-- Icon (Lightning - #F0B429) -->
+    <g transform="translate(12, 20)">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="#F0B429">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      </svg>
+    </g>
+    <!-- Title & Description -->
+    <text x="58" y="31" class="title">High-Performance Websites</text>
+    <text x="58" y="57" class="desc">Fast, responsive web experiences built for performance and reliability.</text>
+  </g>
+  <!-- Row 1 Divider -->
+  <line x1="22" y1="84" x2="978" y2="84" stroke="#2A3038" stroke-width="1" />
+
+  <!-- ==================== ROW 2: AI Automation ==================== -->
+  <g transform="translate(10, 98)">
+    <!-- Icon (Robot / Workflow - #22B8C7) -->
+    <g transform="translate(12, 20)">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#22B8C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="8" width="16" height="12" rx="2" />
+        <path d="M12 2v6" />
+        <circle cx="9" cy="13" r="1.2" fill="#22B8C7" />
+        <circle cx="15" cy="13" r="1.2" fill="#22B8C7" />
+        <path d="M9 17h6" />
+        <path d="M2 12h2" />
+        <path d="M20 12h2" />
+      </svg>
+    </g>
+    <!-- Title & Description -->
+    <text x="58" y="31" class="title">AI Automation</text>
+    <text x="58" y="57" class="desc">Intelligent workflows that reduce repetitive work and streamline operations.</text>
+  </g>
+  <!-- Row 2 Divider -->
+  <line x1="22" y1="182" x2="978" y2="182" stroke="#2A3038" stroke-width="1" />
+
+  <!-- ==================== ROW 3: AI Voice & Chatbots ==================== -->
+  <g transform="translate(10, 196)">
+    <!-- Icon (Voice / Mic - #A78BFA) -->
+    <g transform="translate(12, 20)">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="#A78BFA" fill-opacity="0.25" />
+        <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+        <line x1="12" y1="19" x2="12" y2="23" />
+        <line x1="8" y1="23" x2="16" y2="23" />
+      </svg>
+    </g>
+    <!-- Title & Description -->
+    <text x="58" y="31" class="title">AI Voice &amp; Chatbots</text>
+    <text x="58" y="57" class="desc">Conversational systems designed to assist users and automate interactions.</text>
+  </g>
+  <!-- Row 3 Divider -->
+  <line x1="22" y1="280" x2="978" y2="280" stroke="#2A3038" stroke-width="1" />
+
+  <!-- ==================== ROW 4: Technical SEO & Growth ==================== -->
+  <g transform="translate(10, 294)">
+    <!-- Icon (Growth / Chart - #F97360) -->
+    <g transform="translate(12, 20)">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F97360" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+        <polyline points="17 6 23 6 23 12" />
+      </svg>
+    </g>
+    <!-- Title & Description -->
+    <text x="58" y="31" class="title">Technical SEO &amp; Growth</text>
+    <text x="58" y="57" class="desc">Technical foundations that support stronger visibility, discoverability and growth.</text>
+  </g>
+</svg>

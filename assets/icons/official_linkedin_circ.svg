@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Solid Official Circular Blue Badge -->
+  <circle cx="64" cy="64" r="64" fill="#0077B5"/>
+  <!-- Crisp Centered White 'in' Logo -->
+  <path fill="#FFFFFF" d="M47.5 89H35.8V51.7h11.7V89zm-5.9-42.5c-3.7 0-6.8-3.1-6.8-6.8s3.1-6.8 6.8-6.8 6.8 3.1 6.8 6.8-3.1 6.8-6.8 6.8zm53.4 42.5H83.3V69.3c0-4.7-.1-10.7-6.5-10.7-6.5 0-7.5 5.1-7.5 10.4V89H57.6V51.7h11.2v5.1h.2c1.6-3 5.4-6.2 11.2-6.2 12 0 14.2 7.9 14.2 18.2V89z"/>
+</svg>

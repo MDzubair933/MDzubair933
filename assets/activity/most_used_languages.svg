@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none">
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif; }
+  </style>
+
+  <rect width="1280" height="360" rx="14" fill="#0C0A09" stroke="#1C1917" stroke-width="1.5" />
+
+  <g transform="translate(50, 48)">
+    <text font-size="25" font-weight="800" fill="#F4F4F5" letter-spacing="-0.3px">Most Used Languages &amp; Codebase Distribution</text>
+  </g>
+
+  <!-- Donut Chart (Left Side, Bigger & Bolder) -->
+  <g transform="translate(200, 198)">
+    
+        <path d="M 7.654042494670958e-15 -125 A 125 125 0 0 1 115.9699602964812 46.64727547062716 L 66.79869713077316 26.86883067108124 A 72 72 0 0 0 4.408728476930472e-15 -72 Z" fill="#3572A5" stroke="#0C0A09" stroke-width="2.5px">
+          <title>Python: 31.1%</title>
+        </path>
+        <path d="M 115.9699602964812 46.64727547062716 A 125 125 0 0 1 -28.13284861027618 121.7930327607917 L -16.20452079951908 70.15278687021602 A 72 72 0 0 0 66.79869713077316 26.86883067108124 Z" fill="#E34F26" stroke="#0C0A09" stroke-width="2.5px">
+          <title>HTML: 22.5%</title>
+        </path>
+        <path d="M -28.13284861027618 121.7930327607917 A 125 125 0 0 1 -122.73778621398893 23.673526042589245 L -70.69696485925762 13.635951000531405 A 72 72 0 0 0 -16.20452079951908 70.15278687021602 Z" fill="#3178C6" stroke="#0C0A09" stroke-width="2.5px">
+          <title>TypeScript: 18.4%</title>
+        </path>
+        <path d="M -122.73778621398893 23.673526042589245 A 125 125 0 0 1 -96.47986515891265 -79.47726479263132 L -55.57240233153368 -45.778904520555635 A 72 72 0 0 0 -70.69696485925762 13.635951000531405 Z" fill="#F7DF1E" stroke="#0C0A09" stroke-width="2.5px">
+          <title>JavaScript: 14.0%</title>
+        </path>
+        <path d="M -96.47986515891265 -79.47726479263132 A 125 125 0 0 1 -40.193474405810264 -118.36166869045687 L -23.15144125774671 -68.17632116570316 A 72 72 0 0 0 -55.57240233153368 -45.778904520555635 Z" fill="#1572B6" stroke="#0C0A09" stroke-width="2.5px">
+          <title>CSS: 8.8%</title>
+        </path>
+        <path d="M -40.193474405810264 -118.36166869045687 A 125 125 0 0 1 -25.585903714435684 -122.35342876730355 L -14.737480539514955 -70.47557496996684 A 72 72 0 0 0 -23.15144125774671 -68.17632116570316 Z" fill="#336791" stroke="#0C0A09" stroke-width="2.5px">
+          <title>PLpgSQL: 1.9%</title>
+        </path>
+        <path d="M -25.585903714435684 -122.35342876730355 A 125 125 0 0 1 -15.001359516034855 -124.09657212296668 L -8.640783081236076 -71.47962554282881 A 72 72 0 0 0 -14.737480539514955 -70.47557496996684 Z" fill="#F34B7D" stroke="#0C0A09" stroke-width="2.5px">
+          <title>C++: 1.4%</title>
+        </path>
+        <path d="M -15.001359516034855 -124.09657212296668 A 125 125 0 0 1 -6.435876269180276 -124.83420803869346 L -3.7070647310478386 -71.90450383028744 A 72 72 0 0 0 -8.640783081236076 -71.47962554282881 Z" fill="#89E051" stroke="#0C0A09" stroke-width="2.5px">
+          <title>Shell: 1.1%</title>
+        </path>
+        <path d="M -6.435876269180276 -124.83420803869346 A 125 125 0 0 1 -2.2962127484012872e-14 -125 L -1.3226185430791413e-14 -72 A 72 72 0 0 0 -3.7070647310478386 -71.90450383028744 Z" fill="#384D54" stroke="#0C0A09" stroke-width="2.5px">
+          <title>Dockerfile: 0.8%</title>
+        </path>
+  </g>
+
+  <!-- Languages Clean Legend (Right Side, Big Crisp Font) -->
+  <g transform="translate(390, 105)">
+    
+    <g transform="translate(0, 0)">
+      <circle cx="9" cy="17" r="7" fill="#3572A5" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">Python <tspan fill="#3572A5" font-size="16.5" font-weight="800">(31.1%)</tspan></text>
+    </g>
+    <g transform="translate(285, 0)">
+      <circle cx="9" cy="17" r="7" fill="#E34F26" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">HTML <tspan fill="#E34F26" font-size="16.5" font-weight="800">(22.5%)</tspan></text>
+    </g>
+    <g transform="translate(570, 0)">
+      <circle cx="9" cy="17" r="7" fill="#3178C6" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">TypeScript <tspan fill="#3178C6" font-size="16.5" font-weight="800">(18.4%)</tspan></text>
+    </g>
+    <g transform="translate(0, 52)">
+      <circle cx="9" cy="17" r="7" fill="#F7DF1E" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">JavaScript <tspan fill="#F7DF1E" font-size="16.5" font-weight="800">(14.0%)</tspan></text>
+    </g>
+    <g transform="translate(285, 52)">
+      <circle cx="9" cy="17" r="7" fill="#1572B6" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">CSS <tspan fill="#1572B6" font-size="16.5" font-weight="800">(8.8%)</tspan></text>
+    </g>
+    <g transform="translate(570, 52)">
+      <circle cx="9" cy="17" r="7" fill="#336791" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">PLpgSQL <tspan fill="#336791" font-size="16.5" font-weight="800">(1.9%)</tspan></text>
+    </g>
+    <g transform="translate(0, 104)">
+      <circle cx="9" cy="17" r="7" fill="#F34B7D" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">C++ <tspan fill="#F34B7D" font-size="16.5" font-weight="800">(1.4%)</tspan></text>
+    </g>
+    <g transform="translate(285, 104)">
+      <circle cx="9" cy="17" r="7" fill="#89E051" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">Shell <tspan fill="#89E051" font-size="16.5" font-weight="800">(1.1%)</tspan></text>
+    </g>
+    <g transform="translate(570, 104)">
+      <circle cx="9" cy="17" r="7" fill="#384D54" />
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">Dockerfile <tspan fill="#384D54" font-size="16.5" font-weight="800">(0.8%)</tspan></text>
+    </g>
+  </g>
+</svg>

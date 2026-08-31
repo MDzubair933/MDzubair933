@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="34" viewBox="0 0 196 34" fill="none">
+  <!-- Tinted Background & Subtle Border -->
+  <rect width="196" height="34" rx="6" fill="#281C10" stroke="#573C17" stroke-width="1.2" />
+  <!-- Brand Icon (Left aligned at x=12, centered vertically at y=8) -->
+  <g transform="translate(12, 8)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFA502" stroke-width="2" stroke-linecap="round">
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  </svg>
+  </g>
+  <!-- Text Label -->
+  <text x="36" y="21.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.3" fill="#FFF5E0">Workflow Automation</text>
+</svg>

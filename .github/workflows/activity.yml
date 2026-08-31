@@ -1,0 +1,33 @@
+name: Auto-Update 3D Contribution Activity
+
+on:
+  schedule:
+    # Har 6 ghante me automatically chalega
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scrape and Generate Real 3D Landscape & Streak Card
+        run: node assets/activity/generate_3d_profile.js
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Auto-Commit and Push Updated SVGs
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/activity/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update 3D contribution activity & streak card" && git push)

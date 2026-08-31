@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="36" viewBox="0 0 96 36" fill="none">
+  <!-- Subtle Tinted Background & 1.2px Border -->
+  <rect width="96" height="36" rx="6" fill="rgb(38, 26, 24)" stroke="rgb(106, 60, 44)" stroke-width="1.2" />
+  <!-- Brand Icon (x=13, y=9) -->
+  <g transform="translate(13, 9)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#FF4F00"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+  </g>
+  <!-- Clean High-Contrast Typography -->
+  <text x="38" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#F4F4F5">Zapier</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="48" viewBox="0 0 640 48" fill="none">
+  <!-- Center Column 1: Total Contributions -->
+  <g transform="translate(100, 0)">
+    <text x="0" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#8F96A3">TOTAL CONTRIBUTIONS</text>
+    <text x="0" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="20" font-weight="800" letter-spacing="0.5" fill="#F2C46D">177</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="220" y1="8" x2="220" y2="40" stroke="#2A2F38" stroke-width="1" />
+
+  <!-- Center Column 2: Current Streak -->
+  <g transform="translate(320, 0)">
+    <text x="0" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#8F96A3">CURRENT STREAK</text>
+    <text x="0" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="20" font-weight="800" letter-spacing="0.5" fill="#F2C46D">0 <tspan font-size="12" font-weight="500" fill="#8F96A3">days</tspan></text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="420" y1="8" x2="420" y2="40" stroke="#2A2F38" stroke-width="1" />
+
+  <!-- Center Column 3: Longest Streak -->
+  <g transform="translate(520, 0)">
+    <text x="0" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#8F96A3">LONGEST STREAK</text>
+    <text x="0" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="20" font-weight="800" letter-spacing="0.5" fill="#F2C46D">7 <tspan font-size="12" font-weight="500" fill="#8F96A3">days</tspan></text>
+  </g>
+</svg>

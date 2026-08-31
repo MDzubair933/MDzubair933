@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="36" viewBox="0 0 90 36" fill="none">
+  <!-- Subtle Tinted Background & 1.2px Border -->
+  <rect width="90" height="36" rx="6" fill="rgb(38, 32, 24)" stroke="rgb(106, 81, 44)" stroke-width="1.2" />
+  <!-- Brand Icon (x=13, y=9) -->
+  <g transform="translate(13, 9)">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#FF9900"><path d="M6.5 17.5c4 2.5 8.5 2.5 11 0M18 17.5l2-1M6.5 17.5l-2-1M12 3v8M8 7l4-4 4 4"/></svg>
+  </g>
+  <!-- Clean High-Contrast Typography -->
+  <text x="38" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#F4F4F5">AWS</text>
+</svg>
