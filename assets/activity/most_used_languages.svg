@@ -12,31 +12,31 @@
   <!-- Donut Chart (Left Side, Bigger & Bolder) -->
   <g transform="translate(200, 198)">
     
-        <path d="M 7.654042494670958e-15 -125 A 125 125 0 0 1 116.129752574188 46.24803311555934 L 66.89073748273229 26.63886707456218 A 72 72 0 0 0 4.408728476930472e-15 -72 Z" fill="#3572A5" stroke="#0C0A09" stroke-width="2.5px">
-          <title>Python: 31.0%</title>
+        <path d="M 7.654042494670958e-15 -125 A 125 125 0 0 1 117.06381056678006 43.82994701782144 L 67.42875488646531 25.24604948226515 A 72 72 0 0 0 4.408728476930472e-15 -72 Z" fill="#3572A5" stroke="#0C0A09" stroke-width="2.5px">
+          <title>Python: 30.7%</title>
         </path>
-        <path d="M 116.129752574188 46.24803311555934 A 125 125 0 0 1 -28.70949683012056 121.6583938401346 L -16.536670174149442 70.07523485191753 A 72 72 0 0 0 66.89073748273229 26.63886707456218 Z" fill="#E34F26" stroke="#0C0A09" stroke-width="2.5px">
-          <title>HTML: 22.7%</title>
+        <path d="M 117.06381056678006 43.82994701782144 A 125 125 0 0 1 -24.38342544586666 122.59872986098128 L -14.044853056819196 70.61686839992521 A 72 72 0 0 0 67.42875488646531 25.24604948226515 Z" fill="#E34F26" stroke="#0C0A09" stroke-width="2.5px">
+          <title>HTML: 22.4%</title>
         </path>
-        <path d="M -28.70949683012056 121.6583938401346 A 125 125 0 0 1 -122.81063730440316 23.292646154663082 L -70.73892708733622 13.416564185085935 A 72 72 0 0 0 -16.536670174149442 70.07523485191753 Z" fill="#3178C6" stroke="#0C0A09" stroke-width="2.5px">
-          <title>TypeScript: 18.3%</title>
+        <path d="M -24.38342544586666 122.59872986098128 A 125 125 0 0 1 -121.56126451543994 29.11801795121437 L -70.01928836089341 16.771978339899476 A 72 72 0 0 0 -14.044853056819196 70.61686839992521 Z" fill="#3178C6" stroke="#0C0A09" stroke-width="2.5px">
+          <title>TypeScript: 18.1%</title>
         </path>
-        <path d="M -122.81063730440316 23.292646154663082 A 125 125 0 0 1 -96.35632015523248 -79.62700274493785 L -55.5012404094139 -45.8651535810842 A 72 72 0 0 0 -70.73892708733622 13.416564185085935 Z" fill="#F7DF1E" stroke="#0C0A09" stroke-width="2.5px">
-          <title>JavaScript: 14.0%</title>
+        <path d="M -121.56126451543994 29.11801795121437 A 125 125 0 0 1 -95.67577370447538 -80.44343556841676 L -55.10924565377781 -46.33541888740805 A 72 72 0 0 0 -70.01928836089341 16.771978339899476 Z" fill="#F7DF1E" stroke="#0C0A09" stroke-width="2.5px">
+          <title>JavaScript: 14.9%</title>
         </path>
-        <path d="M -96.35632015523248 -79.62700274493785 A 125 125 0 0 1 -40.12522128856693 -118.38482426621893 L -23.112127462214552 -68.1896587773421 A 72 72 0 0 0 -55.5012404094139 -45.8651535810842 Z" fill="#1572B6" stroke="#0C0A09" stroke-width="2.5px">
-          <title>CSS: 8.8%</title>
+        <path d="M -95.67577370447538 -80.44343556841676 A 125 125 0 0 1 -39.713505162929664 -118.5235736369519 L -22.874978973847487 -68.2695784148843 A 72 72 0 0 0 -55.10924565377781 -46.33541888740805 Z" fill="#1572B6" stroke="#0C0A09" stroke-width="2.5px">
+          <title>CSS: 8.7%</title>
         </path>
-        <path d="M -40.12522128856693 -118.38482426621893 A 125 125 0 0 1 -25.541477210210765 -122.36271058586551 L -14.711890873081401 -70.48092129745854 A 72 72 0 0 0 -23.112127462214552 -68.1896587773421 Z" fill="#336791" stroke="#0C0A09" stroke-width="2.5px">
+        <path d="M -39.713505162929664 -118.5235736369519 A 125 125 0 0 1 -25.273600154916785 -122.4183202597119 L -14.557593689232068 -70.51295246959405 A 72 72 0 0 0 -22.874978973847487 -68.2695784148843 Z" fill="#336791" stroke="#0C0A09" stroke-width="2.5px">
           <title>PLpgSQL: 1.9%</title>
         </path>
-        <path d="M -25.541477210210765 -122.36271058586551 A 125 125 0 0 1 -14.975064558280206 -124.09974795089369 L -8.6256371855694 -71.48145481971476 A 72 72 0 0 0 -14.711890873081401 -70.48092129745854 Z" fill="#F34B7D" stroke="#0C0A09" stroke-width="2.5px">
-          <title>C++: 1.4%</title>
+        <path d="M -25.273600154916785 -122.4183202597119 A 125 125 0 0 1 -14.816542595346908 -124.11877402520648 L -8.534328534919819 -71.49241383851893 A 72 72 0 0 0 -14.557593689232068 -70.51295246959405 Z" fill="#F34B7D" stroke="#0C0A09" stroke-width="2.5px">
+          <title>C++: 1.3%</title>
         </path>
-        <path d="M -14.975064558280206 -124.09974795089369 A 125 125 0 0 1 -6.4245506267342085 -124.83479142148045 L -3.700541160998904 -71.90483985877273 A 72 72 0 0 0 -8.6256371855694 -71.48145481971476 Z" fill="#89E051" stroke="#0C0A09" stroke-width="2.5px">
+        <path d="M -14.816542595346908 -124.11877402520648 A 125 125 0 0 1 -6.356277780169649 -124.8382863258757 L -3.661216001377718 -71.9068529237044 A 72 72 0 0 0 -8.534328534919819 -71.49241383851893 Z" fill="#89E051" stroke="#0C0A09" stroke-width="2.5px">
           <title>Shell: 1.1%</title>
         </path>
-        <path d="M -6.4245506267342085 -124.83479142148045 A 125 125 0 0 1 -2.2962127484012872e-14 -125 L -1.3226185430791413e-14 -72 A 72 72 0 0 0 -3.700541160998904 -71.90483985877273 Z" fill="#384D54" stroke="#0C0A09" stroke-width="2.5px">
+        <path d="M -6.356277780169649 -124.8382863258757 A 125 125 0 0 1 -2.2962127484012872e-14 -125 L -1.3226185430791413e-14 -72 A 72 72 0 0 0 -3.661216001377718 -71.9068529237044 Z" fill="#384D54" stroke="#0C0A09" stroke-width="2.5px">
           <title>Dockerfile: 0.8%</title>
         </path>
   </g>
@@ -46,23 +46,23 @@
     
     <g transform="translate(0, 0)">
       <circle cx="9" cy="17" r="7" fill="#3572A5" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">Python <tspan fill="#3572A5" font-size="16.5" font-weight="800">(31.0%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">Python <tspan fill="#3572A5" font-size="16.5" font-weight="800">(30.7%)</tspan></text>
     </g>
     <g transform="translate(285, 0)">
       <circle cx="9" cy="17" r="7" fill="#E34F26" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">HTML <tspan fill="#E34F26" font-size="16.5" font-weight="800">(22.7%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">HTML <tspan fill="#E34F26" font-size="16.5" font-weight="800">(22.4%)</tspan></text>
     </g>
     <g transform="translate(570, 0)">
       <circle cx="9" cy="17" r="7" fill="#3178C6" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">TypeScript <tspan fill="#3178C6" font-size="16.5" font-weight="800">(18.3%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">TypeScript <tspan fill="#3178C6" font-size="16.5" font-weight="800">(18.1%)</tspan></text>
     </g>
     <g transform="translate(0, 52)">
       <circle cx="9" cy="17" r="7" fill="#F7DF1E" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">JavaScript <tspan fill="#F7DF1E" font-size="16.5" font-weight="800">(14.0%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">JavaScript <tspan fill="#F7DF1E" font-size="16.5" font-weight="800">(14.9%)</tspan></text>
     </g>
     <g transform="translate(285, 52)">
       <circle cx="9" cy="17" r="7" fill="#1572B6" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">CSS <tspan fill="#1572B6" font-size="16.5" font-weight="800">(8.8%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">CSS <tspan fill="#1572B6" font-size="16.5" font-weight="800">(8.7%)</tspan></text>
     </g>
     <g transform="translate(570, 52)">
       <circle cx="9" cy="17" r="7" fill="#336791" />
@@ -70,7 +70,7 @@
     </g>
     <g transform="translate(0, 104)">
       <circle cx="9" cy="17" r="7" fill="#F34B7D" />
-      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">C++ <tspan fill="#F34B7D" font-size="16.5" font-weight="800">(1.4%)</tspan></text>
+      <text x="28" y="23" font-size="17.5" font-weight="700" fill="#FFFFFF">C++ <tspan fill="#F34B7D" font-size="16.5" font-weight="800">(1.3%)</tspan></text>
     </g>
     <g transform="translate(285, 104)">
       <circle cx="9" cy="17" r="7" fill="#89E051" />
