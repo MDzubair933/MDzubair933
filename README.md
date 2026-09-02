@@ -17,7 +17,7 @@
 <br/>
 
 <!-- 4 NAV/CONTACT BUTTONS — equal 132x36 dimensions, calibrated colors, centered alignment -->
-<a href="https://zubairsystems.tech"><img src="./assets/badges/btn_website.svg" width="132" height="36" alt="Website" /></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/md-zubair933/"><img src="./assets/badges/btn_linkedin.svg" width="132" height="36" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;<a href="https://x.com/MDzubair933"><img src="./assets/badges/btn_x.svg" width="132" height="36" alt="X / Twitter" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:zubairmd1112@gmail.com"><img src="./assets/badges/btn_email.svg" width="132" height="36" alt="Email" /></a>
+<a href="https://zubairsystems.tech"><img src="./assets/badges/btn_website.svg" width="110" height="30" alt="Website" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/md-zubair933/"><img src="./assets/badges/btn_linkedin.svg" width="110" height="30" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://x.com/MDzubair933"><img src="./assets/badges/btn_x.svg" width="110" height="30" alt="X / Twitter" /></a>&nbsp;&nbsp;<a href="mailto:zubairmd1112@gmail.com"><img src="./assets/badges/btn_email.svg" width="110" height="30" alt="Email" /></a>
 
 <br/>
 
