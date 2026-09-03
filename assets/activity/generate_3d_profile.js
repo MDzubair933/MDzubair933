@@ -294,7 +294,7 @@ function generateComposite3DSvg(grid, oneYearCount, activityStats) {
     for (let row = 0; row < 7; row++) {
       const count = grid[col][row];
       const baseX = 120 + (col - row) * 19.5;
-      const baseY = 145 + (col + row) * 11.2;
+      const baseY = 60 + (col + row) * 11.2;
 
       const cappedCount = count > 200 ? 200 : count;
       const h = cappedCount === 0 ? 2.6 : 6 + (cappedCount / 200) * 280;
@@ -347,7 +347,7 @@ function generateComposite3DSvg(grid, oneYearCount, activityStats) {
     ${gridSvg}
   </g>
 
-  <g transform="translate(960, 240)">
+  <g transform="translate(220, 580)">
     <polygon points="${pent(RING*1)}" style="fill: none; stroke: #444455; stroke-width: 1px;" />
     <polygon points="${pent(RING*2)}" style="fill: none; stroke: #444455; stroke-width: 1px;" />
     <polygon points="${pent(RING*3)}" style="fill: none; stroke: #444455; stroke-width: 1px;" />
