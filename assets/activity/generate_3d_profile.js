@@ -296,7 +296,7 @@ function generateComposite3DSvg(grid, oneYearCount, activityStats) {
       const baseX = 120 + (col - row) * 19.5;
       const baseY = 145 + (col + row) * 11.2;
 
-      const h = count === 0 ? 2.6 : 6.5 + count * 2.5;
+      const h = count === 0 ? 2.6 : 6.5 + Math.sqrt(count) * 10;
       const elevY = (h - 2.6) * 1.15;
       const posY = baseY - elevY;
 
