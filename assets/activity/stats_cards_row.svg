@@ -6,7 +6,7 @@
   <!-- Card 1: Lifetime Total -->
   <g transform="translate(0, 0)">
     <rect width="234" height="108" rx="10" fill="#0C0A09" stroke="#1C1917" stroke-width="1.2" />
-    <text x="117" y="50" text-anchor="middle" font-size="28" font-weight="700" fill="#E8D5B7">22,895</text>
+    <text x="117" y="50" text-anchor="middle" font-size="28" font-weight="700" fill="#E8D5B7">22,914</text>
     <text x="117" y="78" text-anchor="middle" font-size="13" font-weight="500" fill="#8B95A3">Lifetime Total</text>
   </g>
 
