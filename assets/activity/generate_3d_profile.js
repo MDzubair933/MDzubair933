@@ -41,6 +41,53 @@ function fetchJson(url, token) {
   });
 }
 
+function parseContributionLevelsByDate(html) {
+  const levelsByDate = new Map();
+  const dayCellRegex = /<td[^>]*class="[^"]*ContributionCalendar-day[^"]*"[^>]*>/g;
+  let cellMatch;
+  while ((cellMatch = dayCellRegex.exec(html)) !== null) {
+    const cell = cellMatch[0];
+    const dateMatch = cell.match(/data-date="([0-9-]+)"/);
+    const levelMatch = cell.match(/data-level="([0-4])"/);
+    if (!dateMatch || !levelMatch) continue;
+    levelsByDate.set(dateMatch[1], parseInt(levelMatch[1], 10));
+  }
+  return levelsByDate;
+}
+
+function shiftIsoDate(isoDate, dayDelta) {
+  const dt = new Date(`${isoDate}T00:00:00Z`);
+  dt.setUTCDate(dt.getUTCDate() + dayDelta);
+  return dt.toISOString().slice(0, 10);
+}
+
+function computeCurrentStreak(levelsByDate) {
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const allDates = Array.from(levelsByDate.keys()).sort().filter(d => d <= todayIso);
+  if (allDates.length === 0) return { resolved: true, streak: 0 };
+
+  let streak = 0;
+  let dateCursor = allDates[allDates.length - 1];
+  let skippedLatestZero = false;
+
+  while (true) {
+    const level = levelsByDate.get(dateCursor);
+    if (typeof level !== 'number') {
+      return { resolved: false, streak };
+    }
+
+    if (level > 0) {
+      streak++;
+    } else if (!skippedLatestZero && dateCursor === allDates[allDates.length - 1]) {
+      skippedLatestZero = true;
+    } else {
+      return { resolved: true, streak };
+    }
+
+    dateCursor = shiftIsoDate(dateCursor, -1);
+  }
+}
+
 const GITHUB_LANG_COLORS = {
   'TypeScript': '#3178C6',
   'Python': '#3572A5',
@@ -178,37 +225,41 @@ async function getLifetimeContributionsFromGitHub() {
     }
   }
 
-  // Step 2: Use the DEFAULT page (rolling 1-year, no future months) for STREAK calculations
-  const defaultUrl = `https://github.com/users/${USERNAME}/contributions`;
-  const defaultHtml = await fetchText(defaultUrl);
+  // Step 2: Build a multi-year contribution day map and compute true streaks across year boundaries
+  const levelsByDate = new Map();
+  let currentStreak = 0;
+  let streakResolved = false;
+  const minYear = 2007;
+  for (let y = currentYear; y >= minYear; y--) {
+    try {
+      const yearUrl = `https://github.com/users/${USERNAME}/contributions?from=${y}-01-01&to=${y}-12-31`;
+      const yearHtml = await fetchText(yearUrl);
+      const yearLevels = parseContributionLevelsByDate(yearHtml);
+      for (const [isoDate, level] of yearLevels.entries()) {
+        levelsByDate.set(isoDate, level);
+      }
 
-  const tipRegex = /<tool-tip[^>]*for="contribution-day-component-([^"]+)"[^>]*>([^<]+)<\/tool-tip>/g;
-  let match;
-  const dayEntries = [];
-  while ((match = tipRegex.exec(defaultHtml)) !== null) {
-    const coord = match[1];
-    const text = match[2].trim();
-    const countMatch = text.match(/^([0-9]+)\s+contribution/i);
-    const count = countMatch ? parseInt(countMatch[1], 10) : 0;
-
-    const parts = coord.split('-').map(Number);
-    if (parts.length === 2) {
-      const row = parts[0]; // day of week
-      const col = parts[1]; // week number (oldest=0, newest=max)
-      dayEntries.push({ col, row, count });
+      const streakAttempt = computeCurrentStreak(levelsByDate);
+      currentStreak = streakAttempt.streak;
+      if (streakAttempt.resolved) {
+        streakResolved = true;
+        break;
+      }
+    } catch (err) {
+      console.warn(`Could not scrape streak data for year ${y}:`, err.message);
     }
   }
 
-  // Sort chronologically: by column (week) first, then by row (day of week)
-  dayEntries.sort((a, b) => {
-    if (a.col !== b.col) return a.col - b.col;
-    return a.row - b.row;
-  });
+  if (!streakResolved) {
+    console.warn(`Current streak may be lower-bounded because no zero-day boundary was found in fetched history.`);
+  }
 
-  const allDays = dayEntries.map(e => e.count);
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const sortedDates = Array.from(levelsByDate.keys()).sort().filter(d => d <= todayIso);
+  const allDays = sortedDates.map(d => levelsByDate.get(d) || 0);
   console.log(`  Streak data: ${allDays.length} days, Non-zero: ${allDays.filter(c => c > 0).length}`);
 
-  // Calculate LONGEST streak from chronologically sorted data
+  // Calculate LONGEST streak from full fetched historical data
   let longestStreak = 0;
   let tempStreak = 0;
   for (const count of allDays) {
@@ -217,19 +268,6 @@ async function getLifetimeContributionsFromGitHub() {
       if (tempStreak > longestStreak) longestStreak = tempStreak;
     } else {
       tempStreak = 0;
-    }
-  }
-
-  // Calculate CURRENT streak from the end (most recent day backward)
-  let currentStreak = 0;
-  for (let i = allDays.length - 1; i >= 0; i--) {
-    if (allDays[i] > 0) {
-      currentStreak++;
-    } else if (i === allDays.length - 1) {
-      // If the very last day (today) has 0, skip it and check yesterday
-      continue;
-    } else {
-      break;
     }
   }
 
